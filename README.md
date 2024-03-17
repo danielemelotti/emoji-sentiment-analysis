@@ -11,7 +11,7 @@ The main objective of this project is to develop a machine learning model capabl
 
 ## Methodology
 - **Data Collection**: Our data comes from chats exported from WhatsApp and comment to posts exported from Instagram. Any user can export their WhatsApp data directly and request their Instagram data through the app.
-- **Data Preprocessing**: We use packages such as csv, nltk, re, pandas, json, emojis, and numpy for processing. The process involves loading an emoji catalog, uploading chat data, connecting it to a catalogue of feelings (each emoji in the catalogue is assessed as expressing _positive_, _negative_ or _neutral_ emotions), tokenizing emojis, and merging data into a final dataset categorized by sentiment.
+- **Data Preprocessing**: We use packages such as `csv`, `nltk`, `re`, `pandas`, `json`, `emojis`, and `numpy` for processing. The process involves loading an emoji catalog, uploading chat data, connecting it to a catalogue of feelings (each emoji in the catalogue is assessed as expressing _positive_, _negative_ or _neutral_ emotions), tokenizing emojis, and merging data into a final dataset categorized by sentiment.
 - **Model Selection and Analysis**: Details about the specific machine learning models used are streamlined for the project's context, focusing on sentiment analysis and categorization. Charts are provided, showcasing the different usage of emojis across WhatsApp and Instagram, separately or altogether.
 - **Evaluation**: The evaluation metrics include rankings of emojis (and categories of emojis) and cover rates (how many unique emojis are found across teh WhatsApp/Instagram data as opposed to the total of unique emojis available in the catalogue).
 
